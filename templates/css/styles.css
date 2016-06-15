@@ -37,20 +37,47 @@ header {
   background-color: transparent;
   border: none; }
 
+.navbar.navbar-default .navbar-header button {
+  position: absolute;
+  top: -49px;
+  right: 8px;
+  border: none; }
+  .navbar.navbar-default .navbar-header button .icon-bar {
+    background-color: #fff; }
+    .navbar.navbar-default .navbar-header button .icon-bar:hover {
+      opacity: .5; }
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent; }
+
 .container-fluid {
   padding: 0; }
 
 #bs-example-navbar-collapse-1 {
+  margin: 0;
+  background-color: #fff;
   padding: 0; }
   #bs-example-navbar-collapse-1 ul {
-    font-size: 20px; }
+    margin: 0;
+    font-size: 20px;
+    padding-left: 10px; }
     #bs-example-navbar-collapse-1 ul li.active a {
       background-color: transparent;
-      color: gray; }
+      color: gray;
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: 15px;
+      padding-bottom: 10px; }
     #bs-example-navbar-collapse-1 ul li a {
-      color: #4d4e53; }
+      color: #4d4e53;
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: 15px;
+      padding-bottom: 10px; }
       #bs-example-navbar-collapse-1 ul li a:hover {
-        color: gray; }
+        color: #4d4e53;
+        border-bottom: none; }
 
 .hero {
   padding-top: 100px;
@@ -61,7 +88,8 @@ header {
   background-size: cover; }
   .hero h1 {
     font-size: 30px;
-    color: #207d93; }
+    color: #207d93;
+    line-height: .8em; }
     .hero h1 strong {
       font-weight: 700; }
     .hero h1 span {
@@ -133,5 +161,31 @@ footer {
     footer ul li {
       display: inline-block;
       text-align: left; }
+
+@media (min-width: 640px) {
+  .navbar {
+    background-color: transparent;
+    border: none; }
+
+  #bs-example-navbar-collapse-1 {
+    padding: 0; }
+    #bs-example-navbar-collapse-1 ul {
+      font-size: 20px; }
+      #bs-example-navbar-collapse-1 ul li.active a {
+        background-color: transparent;
+        color: gray;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 15px;
+        padding-bottom: 10px; }
+      #bs-example-navbar-collapse-1 ul li a {
+        color: #4d4e53;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 15px;
+        padding-bottom: 10px; }
+        #bs-example-navbar-collapse-1 ul li a:hover {
+          color: gray;
+          border-bottom: 2px solid gray; } }
 
 /*# sourceMappingURL=styles.css.map */

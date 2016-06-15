@@ -11,10 +11,8 @@ $active-links: #4d4e53;
 // RESET
 
 .row {
+
     margin: 0;
-    //before
-    //margin-left: -15px;
-    //margin-right: -15px;
 }
 
 a {
@@ -84,6 +82,37 @@ body {
         background-color: transparent;
         border: none;
     }
+
+    .navbar.navbar-default {
+
+        .navbar-header {
+
+            button {
+
+                position: absolute;
+                top: -49px;
+                right: 8px;
+                border: none;
+
+                .icon-bar {
+
+                    background-color: #fff;
+
+                    &:hover {
+
+                        opacity: .5;
+                    }
+                }
+            } 
+        }
+    }
+
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+
+        background-color: transparent;
+    }
+
     .container-fluid {
 
         padding: 0;
@@ -91,26 +120,42 @@ body {
 
     #bs-example-navbar-collapse-1 {
 
+        margin: 0;
+        background-color: #fff;
         padding: 0;
+        
 
         ul {
 
-            //border: 1px solid red;
+            margin: 0;
             font-size: 20px;
+            padding-left: 10px;
 
             li.active a {
 
                 background-color: transparent;
                 color: gray;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+
+
             }
 
             li a {
 
                 color: #4d4e53;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+
 
                 &:hover {
 
-                    color: gray;
+                    color: #4d4e53;
+                    border-bottom: none;
                 }
             }
 
@@ -128,6 +173,7 @@ body {
         
         font-size: 30px;
         color: #207d93;
+        line-height: .8em;
 
 
         strong {
@@ -270,6 +316,60 @@ footer {
 }
 
 
+
+@media (min-width: 640px) { 
+
+// BOOTSTRAP NAVS
+
+    .navbar {
+
+        background-color: transparent;
+        border: none;
+    }
+
+
+    #bs-example-navbar-collapse-1 {
+
+        padding: 0;
+
+        ul {
+
+            //border: 1px solid red;
+            font-size: 20px;
+
+            li.active a {
+
+                background-color: transparent;
+                color: gray;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+                
+
+            }
+
+            li a {
+
+                color: #4d4e53;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+
+
+                &:hover {
+
+                    color: gray;
+                    border-bottom: 2px solid gray;
+                }
+            }
+
+            
+        }
+    }
+
+}
 
 @media (min-width: 768px) {
 
