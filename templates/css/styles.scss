@@ -333,18 +333,22 @@ body {
 /*---------------------------------------
     ### Interior Pages
 ---------------------------------------*/
+.interior-content {
 
-h2 {
 
-    font-size: 26px;
-    color: #f8b954;
+    h2 {
 
+        font-size: 26px;
+        color: #f8b954;
+
+    }
+
+    p, ul {
+
+      font-size: 22px;  
+    }
 }
 
-p {
-
-  font-size: 22px;  
-}
 
 /*---------------------------------------
     ### Footer

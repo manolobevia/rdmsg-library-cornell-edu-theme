@@ -182,11 +182,10 @@ header {
 /*---------------------------------------
     ### Interior Pages
 ---------------------------------------*/
-h2 {
+.interior-content h2 {
   font-size: 26px;
   color: #f8b954; }
-
-p {
+.interior-content p, .interior-content ul {
   font-size: 22px; }
 
 /*---------------------------------------
