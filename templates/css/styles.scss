@@ -328,6 +328,24 @@ body {
     }
 }
 
+
+
+/*---------------------------------------
+    ### Interior Pages
+---------------------------------------*/
+
+h2 {
+
+    font-size: 26px;
+    color: #f8b954;
+
+}
+
+p {
+
+  font-size: 22px;  
+}
+
 /*---------------------------------------
     ### Footer
 ---------------------------------------*/
@@ -342,7 +360,7 @@ footer {
     margin-top: 40px;
     margin-bottom: 60px;
 
-    padding-top: 300px;
+    padding-top: 40px;
 
 
     .social-media {
@@ -364,6 +382,9 @@ footer {
         }
     }
 }
+
+
+
 
 /*---------------------------------------
     ### Meqia Query 320px
@@ -521,11 +542,15 @@ footer {
 
     header,
     .home-features,
-    footer {
+    footer,
+    .interior-content {
 
         width: 1440px;
         display: block;
         margin: 0 auto;
+
+        border-bottom: 1px solid #ecedec;
+        padding-bottom: 30px;
     }
     
     .hero-content {
@@ -538,10 +563,6 @@ footer {
 
         height: 552px;
 
-        h1 {
-
-            padding-top: 50px;
-        }
 
         width: 100%;
         background: #ebeade url("../images/bg-hero-home.jpg") no-repeat top right; //top right;
@@ -565,6 +586,8 @@ footer {
     .hero.interior-pages {
 
         height: 200px;
+
+
     }
 
     .home-features {

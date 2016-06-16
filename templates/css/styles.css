@@ -180,6 +180,16 @@ header {
         opacity: .5; }
 
 /*---------------------------------------
+    ### Interior Pages
+---------------------------------------*/
+h2 {
+  font-size: 26px;
+  color: #f8b954; }
+
+p {
+  font-size: 22px; }
+
+/*---------------------------------------
     ### Footer
 ---------------------------------------*/
 footer {
@@ -189,7 +199,7 @@ footer {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 60px;
-  padding-top: 300px; }
+  padding-top: 40px; }
   footer .social-media {
     float: right;
     padding-top: 10px; }
@@ -267,10 +277,13 @@ footer {
 @media (min-width: 1440px) {
   header,
   .home-features,
-  footer {
+  footer,
+  .interior-content {
     width: 1440px;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border-bottom: 1px solid #ecedec;
+    padding-bottom: 30px; }
 
   .hero-content {
     width: 1440px;
@@ -284,8 +297,6 @@ footer {
     -moz-transition: background .4s ease-in-out;
     -webkit-transition: background .4s ease-in-out;
     transition: background .4s ease-in-out; }
-    .hero h1 {
-      padding-top: 50px; }
     .hero:hover {
       background: #ebeade url("../images/bg-hero-home-t.jpg") no-repeat top right;
       background-size: cover; }
