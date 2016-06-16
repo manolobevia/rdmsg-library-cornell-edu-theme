@@ -12,9 +12,16 @@ body {
   font-weight: 400;
   overflow-x: hidden; }
 
+/*---------------------------------------
+   ### HEADER / CU Branding / Main Nav
+----------------------------------------*/
 header {
+  /*---------------------------------------
+  ### MCU Branding / tool bar (mobile menu 
+      plus search )
+  ----------------------------------------*/
   height: 45px;
-  width: 80%;
+  width: 100%;
   background-color: #4d4e53;
   top: 0;
   position: absolute;
@@ -33,6 +40,9 @@ header {
     header .glyphicon-search:hover {
       opacity: .5; }
 
+/*---------------------------------------
+   ### Main Nav
+----------------------------------------*/
 .navbar {
   background-color: transparent;
   border: none; }
@@ -42,10 +52,10 @@ header {
   top: -49px;
   right: 8px;
   border: none; }
+  .navbar.navbar-default .navbar-header button:hover {
+    opacity: .5; }
   .navbar.navbar-default .navbar-header button .icon-bar {
     background-color: #fff; }
-    .navbar.navbar-default .navbar-header button .icon-bar:hover {
-      opacity: .5; }
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
@@ -74,83 +84,112 @@ header {
       padding-right: 0;
       padding-left: 0;
       margin-right: 15px;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      border-bottom: 1px dotted gray; }
       #bs-example-navbar-collapse-1 ul li a:hover {
-        color: #4d4e53;
-        border-bottom: none; }
+        color: gray;
+        border-bottom: 1px dotted gray; }
 
+/*---------------------------------------
+    ### Hero content homepage
+---------------------------------------*/
 .hero {
-  padding-top: 100px;
+  padding-top: 50px;
   margin: 0;
-  height: 552px;
+  padding-bottom: 20px;
   width: 100%;
-  background: #ebeade url("../images/bg-hero-home.jpg") no-repeat top right;
+  background: #ebeade url("../images/bg-hero-home.jpg") no-repeat top left;
   background-size: cover; }
-  .hero h1 {
-    font-size: 30px;
-    color: #207d93;
-    line-height: .8em; }
-    .hero h1 strong {
-      font-weight: 700; }
-    .hero h1 span {
-      color: #5a5b5e;
-      font-size: 18px; }
-  .hero p {
-    font-size: 24px;
-    color: #4d4e53;
-    line-height: 1.19em;
-    padding-top: 40px; }
   .hero .about {
-    padding-left: 100px; }
-  .hero .button-home {
-    background-color: #4d4e53;
-    color: #fff;
-    padding: 10px 40px;
-    font-size: 20px;
-    display: inline-block;
-    margin-top: 10px; }
+    padding-left: 10px;
+    padding-right: 10px; }
+    .hero .about h1 {
+      font-size: 30px;
+      color: #207d93;
+      line-height: 1em;
+      font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 700; }
+      .hero .about h1 span {
+        color: #5a5b5e;
+        font-size: 18px;
+        font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 400;
+        display: inline-block;
+        padding-top: 10px;
+        line-height: 1.3em; }
+    .hero .about p {
+      font-size: 22px;
+      color: #4d4e53;
+      line-height: 1.29em;
+      padding-top: 10px; }
+    .hero .about .button-home {
+      background-color: #4d4e53;
+      color: #fff;
+      padding: 7px 30px;
+      font-size: 20px;
+      display: inline-block;
+      margin-top: 10px;
+      text-align: center;
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      transition: all 0.3s ease; }
+      .hero .about .button-home:hover {
+        text-decoration: none;
+        opacity: .5; }
 
+/*---------------------------------------
+    ### Hero content homepage features
+---------------------------------------*/
 .home-features {
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 30px; }
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px; }
   .home-features article {
-    border-bottom: 1px solid #e6e6e7;
-    padding-bottom: 30px;
-    margin-bottom: 30px; }
+    margin-bottom: 20px;
+    width: 95%; }
     .home-features article header {
       height: auto;
       width: auto;
       background-color: #fff;
       position: relative; }
       .home-features article header h1 {
-        font-size: 32px;
+        font-size: 28px;
         color: #207d93;
         padding-bottom: 10px;
         background: #fff url("../images/title-borders.png") no-repeat bottom left; }
       .home-features article header h2 {
-        font-size: 30px;
+        font-size: 20px;
         color: #f8b954; }
       .home-features article header time {
-        font-size: 16px; }
+        font-size: 16px;
+        color: gray; }
     .home-features article p {
       font-size: 19px; }
-    .home-features article .button {
+    .home-features article .button-graphic {
       background-color: #b37f2c;
       color: #fff;
       padding: 10px 40px;
       font-size: 18px;
       display: inline-block;
-      margin-top: 10px; }
+      margin-top: 10px;
+      transition: all 0.3s ease; }
+      .home-features article .button-graphic:hover {
+        text-decoration: none;
+        opacity: .5; }
 
+/*---------------------------------------
+    ### Footer
+---------------------------------------*/
 footer {
   width: 90%;
-  border-top: 1px solid #ecedec;
   clear: both;
   display: block;
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  padding-top: 300px; }
   footer .social-media {
     float: right;
     padding-top: 10px; }
@@ -162,12 +201,36 @@ footer {
       display: inline-block;
       text-align: left; }
 
-@media (min-width: 640px) {
+/*---------------------------------------
+    ### Meqia Query 320px
+---------------------------------------*/
+/*---------------------------------------
+    ### Meqia Query 480px
+---------------------------------------*/
+@media (min-width: 480px) {
+  /*---------------------------------------
+  ### Hero content homepage
+  ---------------------------------------*/
+  .hero .about p {
+    padding-bottom: 20px; }
+  .hero .about .button-home {
+    display: inline-block;
+    margin-top: 40px;
+    width: auto;
+    margin: 0 auto; } }
+/*---------------------------------------
+    ### Meqia Query 768pc
+---------------------------------------*/
+@media (min-width: 768px) {
+  header {
+    width: 90%; }
+
   .navbar {
     background-color: transparent;
     border: none; }
 
   #bs-example-navbar-collapse-1 {
+    background-color: transparent;
     padding: 0; }
     #bs-example-navbar-collapse-1 ul {
       font-size: 20px; }
@@ -183,9 +246,54 @@ footer {
         padding-right: 0;
         padding-left: 0;
         margin-right: 15px;
-        padding-bottom: 10px; }
+        padding-bottom: 10px;
+        border-bottom: none; }
         #bs-example-navbar-collapse-1 ul li a:hover {
           color: gray;
-          border-bottom: 2px solid gray; } }
+          border-bottom: 2px solid gray; }
+
+  .hero {
+    padding-top: 85px;
+    padding-left: 35px; } }
+/*---------------------------------------
+    ### Meqia Query 992px
+---------------------------------------*/
+/*---------------------------------------
+    ### Meqia Query 1200px
+---------------------------------------*/
+/*---------------------------------------
+    ### Meqia Query 140px
+---------------------------------------*/
+@media (min-width: 1440px) {
+  header,
+  .home-features,
+  footer {
+    width: 1440px;
+    display: block;
+    margin: 0 auto; }
+
+  .hero-content {
+    width: 1440px;
+    margin: 0 auto; }
+
+  .hero {
+    height: 552px;
+    width: 100%;
+    background: #ebeade url("../images/bg-hero-home.jpg") no-repeat top right;
+    background-size: cover;
+    -moz-transition: background .4s ease-in-out;
+    -webkit-transition: background .4s ease-in-out;
+    transition: background .4s ease-in-out; }
+    .hero h1 {
+      padding-top: 50px; }
+    .hero:hover {
+      background: #ebeade url("../images/bg-hero-home-t.jpg") no-repeat top right;
+      background-size: cover; }
+
+  .hero.interior-pages {
+    height: 200px; }
+
+  .home-features {
+    padding-top: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */
