@@ -5233,6 +5233,8 @@ header {
   margin-right: auto; }
   header .cu-logo {
     padding-left: 5px; }
+    header .cu-logo img {
+      margin-top: -1px; }
   header .glyphicon-search {
     font-size: 18px;
     float: right;
@@ -5384,13 +5386,14 @@ header {
 /*---------------------------------------
     ### Interior Pages
 ---------------------------------------*/
+.interior-content h2, .interior-content .h2 {
+  font-size: 26px;
+  color: #f8b954; }
 .interior-content h2.title {
   font-size: 30px;
   color: #207d93; }
 .interior-content p, .interior-content ul {
   font-size: 20px; }
-.interior-content h2, .interior-content .h2 {
-  font-size: 26px; }
 
 /*---------------------------------------
     ### Footer
