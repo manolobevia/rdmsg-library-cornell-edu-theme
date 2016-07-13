@@ -5235,17 +5235,17 @@ header {
     padding-left: 5px; }
     header .cu-logo img {
       margin-top: -1px; }
-  header a {
+  header .search {
     display: inline-block;
     float: right;
     margin-right: 5px; }
-    header a .glyphicon-search {
+    header .search .glyphicon-search {
       font-size: 18px;
       float: right;
       padding-top: 10px;
       padding-right: 10px;
       color: #fff; }
-      header a .glyphicon-search:hover {
+      header .search .glyphicon-search:hover {
         opacity: .5; }
 
 /*---------------------------------------

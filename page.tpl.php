@@ -103,7 +103,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <header>
 
             <a class="cu-logo"href="http://www.cornell.edu"><img src="/<?php print $theme_path; ?>images/cornell-logo.png" /></a>
-            <a href=""><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+            <a class="search" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 
 
             <nav class="navbar navbar-default">
