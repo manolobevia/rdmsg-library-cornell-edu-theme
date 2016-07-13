@@ -100,11 +100,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
 
- <div class="row">
-    <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC--> 
-      <?php print render($breadcrumb); ?>
-  	</div>
- </div>
+
 
 
 <section class="row hero interior-pages">
@@ -124,7 +120,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <header>
 
-            <a class="cu-logo"href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cornell-logo.png" /></a>
+            <a class="cu-logo"href="http://www.cornell.edu"><img src="/<?php print $theme_path; ?>images/cornell-logo.png" /></a>
             <a href=""><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 
 
@@ -164,10 +160,17 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-            <div class="row">
+            <!--<div class="row">
     <div class="nav navbar-nav pull-right nav-rdmsg" > <?php print render($page['navigation']); ?> </div>
-</div>
+</div>-->
+            
+             <div class="row">
+    <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC--> 
+      <?php print render($breadcrumb); ?>
+    </div>
+ </div>
 
+ 
             <h3><?php print $title ?></h3>
         
         	<?php print render($page['content']); ?>
@@ -186,8 +189,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
             <div class="social-media">
                 
-                <a href="#"><img src="<?php print $theme_path; ?>images/icon-twitter.png" alt=""></a>
-                <a href="#"><img src="<?php print $theme_path; ?>images/icon-flicker.png" alt=""></a>
+                <a href="#"><img src="/<?php print $theme_path; ?>images/icon-twitter.png" alt=""></a>
+                <a href="#"><img src="/<?php print $theme_path; ?>images/icon-flicker.png" alt=""></a>
 
             </div>
 
