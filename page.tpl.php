@@ -158,9 +158,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-            <!--<div class="row">
-    <div class="nav navbar-nav pull-right nav-rdmsg" > <?php print render($page['navigation']); ?> </div>
-</div>-->
 
             <h3><?php print $title ?></h3>
         
