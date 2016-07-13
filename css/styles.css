@@ -5395,7 +5395,8 @@ header {
   color: #f8b954; }
 .interior-content h2.title {
   font-size: 30px;
-  color: #207d93; }
+  color: #207d93;
+  background: #fff url("../images/title-borders.png") no-repeat bottom left; }
 .interior-content p, .interior-content ul {
   font-size: 20px; }
 
