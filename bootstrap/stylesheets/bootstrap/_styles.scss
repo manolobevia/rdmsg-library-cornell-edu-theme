@@ -86,17 +86,24 @@ body {
         }
     }
 
-    .glyphicon-search {
+    a {
 
-        font-size: 18px;
+        display: inline-block;
         float: right;
-        padding-top: 10px;
-        padding-right: 10px;
-        color: #fff;
+        margin-right: 5px;
 
-        &:hover {
+        .glyphicon-search {
 
-            opacity: .5;
+            font-size: 18px;
+            float: right;
+            padding-top: 10px;
+            padding-right: 10px;
+            color: #fff;
+
+            &:hover {
+
+                opacity: .5;
+            }
         }
     }
 }
@@ -576,7 +583,7 @@ footer {
         display: block;
         margin: 0 auto;
 
-        border-bottom: 1px solid #ecedec;
+        //border-bottom: 1px solid #ecedec;
         padding-bottom: 30px;
     }
     

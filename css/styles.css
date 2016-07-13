@@ -5235,14 +5235,18 @@ header {
     padding-left: 5px; }
     header .cu-logo img {
       margin-top: -1px; }
-  header .glyphicon-search {
-    font-size: 18px;
+  header a {
+    display: inline-block;
     float: right;
-    padding-top: 10px;
-    padding-right: 10px;
-    color: #fff; }
-    header .glyphicon-search:hover {
-      opacity: .5; }
+    margin-right: 5px; }
+    header a .glyphicon-search {
+      font-size: 18px;
+      float: right;
+      padding-top: 10px;
+      padding-right: 10px;
+      color: #fff; }
+      header a .glyphicon-search:hover {
+        opacity: .5; }
 
 /*---------------------------------------
    ### Main Nav
@@ -5488,7 +5492,6 @@ footer {
     width: 1440px;
     display: block;
     margin: 0 auto;
-    border-bottom: 1px solid #ecedec;
     padding-bottom: 30px; }
 
   .hero-content {
