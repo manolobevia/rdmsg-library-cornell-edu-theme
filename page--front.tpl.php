@@ -89,13 +89,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
 
-
-<div class="row">
-    <div class="nav navbar-nav pull-right nav-rdmsg" > <?php print render($page['navigation']); ?> </div>
-</div>
-
-
-
 <section class="row hero">
 
             <div class="hero-content">
