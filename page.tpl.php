@@ -143,7 +143,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 
-            <?php print $messages; ?>
+            <?php //print $messages; ?>
 
             <?php if (!empty($tabs)): ?>
                 <?php print render($tabs); ?>
