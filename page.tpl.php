@@ -99,12 +99,18 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
 
+<div class="row">
+	<div class="nav navbar-nav pull-right nav-rdmsg" > <?php print render($page['navigation']); ?> </div>
+</div>
 
 
 
 
-
-
+ <div class="row">
+    <div class="breadcrumb-wrapper"><!--TO DO: SEMANTIC--> 
+      <?php print render($breadcrumb); ?>
+  	</div>
+ </div>
 
 
 <section class="row hero interior-pages">
