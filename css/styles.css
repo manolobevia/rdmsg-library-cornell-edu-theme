@@ -5495,6 +5495,10 @@ footer {
     border-bottom: 1px solid #ecedec;
     padding-bottom: 30px; }
 
+  article header {
+    border-top: 1px solid #ecedec;
+    border-bottom: none; }
+
   .home-features {
     border-bottom: none; }
 
