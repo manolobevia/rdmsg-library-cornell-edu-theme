@@ -142,12 +142,12 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Data Management Planning</a></li>
-                            <li><a href="#">Best Practices </a></li>
+                       <ul class="nav navbar-nav">
+                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="/content/about">About</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/content/data-management-planning">Data Management Planning</a></li>
+                            <li><a href="/content/best-practices">Best Practices </a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
