@@ -5384,9 +5384,9 @@ header {
 /*---------------------------------------
     ### Interior Pages
 ---------------------------------------*/
-.interior-content h2 {
-  font-size: 26px;
-  color: #f8b954; }
+.interior-content h2.title {
+  font-size: 30px;
+  color: #207d93; }
 .interior-content p, .interior-content ul {
   font-size: 22px; }
 
