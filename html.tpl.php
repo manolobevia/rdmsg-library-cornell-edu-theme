@@ -20,10 +20,15 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- removing initial-scale=1.0 disables zooming capabilities -->
 
-        <!-- Google fonts -->
-          <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+        <!-- Font Icons AWSOME -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- Google Font Roboto Condensed -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+        <!-- Google Font Raleway Condensed -->
+        <link href='https://www.google.com/fonts#UsePlace:use/Collection:Raleway:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
 
         
         <?php print $styles; ?>

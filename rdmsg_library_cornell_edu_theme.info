@@ -8,22 +8,35 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[navigation]     = 'Navigation'
-regions[header]         = 'Top Bar'
-regions[help]           = 'Help'
-regions[content]        = 'Content'
-regions[sidebar_first]  = 'Primary'
-regions[sidebar_second] = 'Secondary'
-regions[footer]         = 'Footer'
-regions[page_top]       = 'Page top'
-regions[page_bottom]    = 'Page bottom'
+;regions[navigation]     = 'Navigation'
+;regions[header]         = 'Top Bar'
+;regions[help]           = 'Help'
+;regions[content]        = 'Content'
+;regions[sidebar_first]  = 'Primary'
+;regions[sidebar_second] = 'Secondary'
+;regions[footer]         = 'Footer'
+;regions[page_top]       = 'Page top'
+;regions[page_bottom]    = 'Page bottom'
 
-regions[highlights]    	= 'Highlights'
-regions[features]    	= 'Features'
-regions[sidebar]    	= 'Sidebar'
-regions[hours]    		= 'Hours'
+;regions[highlights]    	= 'Highlights'
+;regions[features]    	= 'Features'
+;regions[sidebar]    	= 'Sidebar'
+;regions[hours]    		= 'Hours'
 
 
+
+; Global regions
+regions[navigation]     	= 'Navigation'
+regions[header]         	= 'Header'
+regions[announcement]   	= 'Announcement'
+regions[highlighted]    	= 'Highlighted'
+regions[help]           	= 'Help'
+regions[content]        	= 'Content'
+regions[sidebar]        	= 'Sidebar'
+regions[footer-primary] 	= 'Footer primary'
+regions[footer-secondary] 	= 'Footer secondary'
+regions[home-sidebar] 		= 'Front page sidebar'
+regions[search-box] 		= 'Search box'
 
 
 

@@ -93,3 +93,258 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
 
+<section class="row hero">
+
+            <div class="hero-content">
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 about">
+
+                    <h1>RESEARCH DATA MANAGEMENT <br />SERVICE GROUP<br /><span>Comprehensive Data Management Planning & Services</span></h1>
+                   
+
+                    <p>The Research Data Management Service Group (RDMSG) is a collaborative, campus-wide organization that assists with creating and implementing data management plans, applying best practices for managing data, and finding data management services at any stage of the research process.</p>
+
+                    <a href='#' class='button-home'>Email Us</a>
+
+                    <a href='#' class='button-home'>Online Office Hours</a>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 how-do-i">
+
+                    Drop Down
+
+                </div>
+            </div>
+            
+        </section>
+
+
+
+        <header>
+
+            <a class="cu-logo"href="http://www.cornell.edu"><img src="images/cornell-logo.png" /></a>
+            <a href=""><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+
+
+            <nav class="navbar navbar-default">
+            
+                <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Data Management Planning</a></li>
+                            <li><a href="#">Best Practices </a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            
+        </header>
+        
+
+        <section class="row home-features">
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            
+                <article>
+
+                    <header>
+                    
+                        <h1>RECENT NEWS</h1>
+
+                        <h2>Cornell Geospatial Forum</h2>
+
+                        <time itemprop="dateCreated" datetime="2016-01-29"> Jan 29, 2016</time>
+
+                    </header>
+
+                    <p>The second annual Cornell Geospatial Forum, a one day gathering of faculty, staff, students, and community members to discuss geospatial science and technology research and extension at Cornell and the surrounding Ithaca community, will be held Tuesday October 13th, 2015.</p>
+
+                    <a href='#' class='button-graphic'>Read more</a>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            
+                <article>
+
+                    <header>
+                    
+                        <h1>RECENT NEWS</h1>
+
+                        <h2>Cornell Geospatial Forum</h2>
+
+                        <time itemprop="dateCreated" datetime="2016-01-29"> Jan 29, 2016</time>
+
+                    </header>
+
+                    <p>The second annual Cornell Geospatial Forum, a one day gathering of faculty, staff, students, and community members to discuss geospatial science and technology research and extension at Cornell and the surrounding Ithaca community, will be held Tuesday October 13th, 2015.</p>
+
+                    <a href='#' class='button-graphic'>Read more</a>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            
+                <article>
+
+                    <header>
+                    
+                        <h1>RECENT NEWS</h1>
+
+                        <h2>Cornell Geospatial Forum</h2>
+
+                        <time itemprop="dateCreated" datetime="2016-01-29"> Jan 29, 2016</time>
+
+                    </header>
+
+                    <p>The second annual Cornell Geospatial Forum, a one day gathering of faculty, staff, students, and community members to discuss geospatial science and technology research and extension at Cornell and the surrounding Ithaca community, will be held Tuesday October 13th, 2015.</p>
+
+                    <a href='#' class='button-graphic'>Read more</a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+    <section class="row home-features">
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            
+                <article>
+
+                    <header>
+                    
+                        <h1>RECENT NEWS</h1>
+
+                        <h2>Cornell Geospatial Forum</h2>
+
+                        <time itemprop="dateCreated" datetime="2016-01-29"> Jan 29, 2016</time>
+
+                    </header>
+
+                    <p>The second annual Cornell Geospatial Forum, a one day gathering of faculty, staff, students, and community members to discuss geospatial science and technology research and extension at Cornell and the surrounding Ithaca community, will be held Tuesday October 13th, 2015.</p>
+
+                    <a href='#' class='button-graphic'>Read more</a>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            
+                <article>
+
+                    <header>
+                    
+                        <h1>RECENT NEWS</h1>
+
+                        <h2>Cornell Geospatial Forum</h2>
+
+                        <time itemprop="dateCreated" datetime="2016-01-29"> Jan 29, 2016</time>
+
+                    </header>
+
+                    <p>The second annual Cornell Geospatial Forum, a one day gathering of faculty, staff, students, and community members to discuss geospatial science and technology research and extension at Cornell and the surrounding Ithaca community, will be held Tuesday October 13th, 2015.</p>
+
+                    <a href='#' class='button-graphic'>Read more</a>
+
+                </article>
+
+            </div>
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            
+                <article>
+
+                    <header>
+                    
+                        <h1>RECENT NEWS</h1>
+
+                        <h2>Cornell Geospatial Forum</h2>
+
+                        <time itemprop="dateCreated" datetime="2016-01-29"> Jan 29, 2016</time>
+
+                    </header>
+
+                    <p>The second annual Cornell Geospatial Forum, a one day gathering of faculty, staff, students, and community members to discuss geospatial science and technology research and extension at Cornell and the surrounding Ithaca community, will be held Tuesday October 13th, 2015.</p>
+
+                    <a href='#' class='button-graphic'>Read more</a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+
+        <footer>
+
+            <div class="social-media">
+                
+                <a href="#"><img src="images/icon-twitter.png" alt=""></a>
+                <a href="#"><img src="images/icon-flicker.png" alt=""></a>
+
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a class="active" href="#">Home</a> / </li>
+                    <li><a href="#">Contact RDMSG</a> / </li>
+                    <li><a href="#">Office Hours</a> / </li>
+                    <li><a href="#">Join our mailing list</a> / </li>
+                    <li><a href="#">Privacy Statement</a> / </li>
+                    <li><a href="#">FAQ</a> / </li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </nav>
+
+            <p>Creative Commons License: This work is licensed under a Creative Commons Attribution 4.0 International License / <a href="#" title="">Image Credits</a></p>
+
+        </footer>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+
+        <!-- Latest compiled and minified JavaScript 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
+
+
+
+
+
+
+
+

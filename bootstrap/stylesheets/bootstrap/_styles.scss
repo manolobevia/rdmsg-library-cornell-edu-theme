@@ -9,72 +9,614 @@
 	src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
+//sass --watch styles.scss:styles.css
+
+
+// VARIABLES
+
+$links: #b37f2c;
+$body-color: #4d4e53;
+$active-links: #4d4e53;
+
+
+// RESET
+
+.row {
+
+    margin: 0;
+}
+
+a {
+
+    color: $links;
+}
+
+.active {
+
+    color: $active-links;
+}
+
+ul {
+   // list-style-type: none !important;
+}
+
+
+
+
 body {
 
-  font-family: Montserrat, Helvetica, sans-serif;
+    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400; //400,400italic,700,700italic
+    overflow-x: hidden;
 
+ }
+
+
+/*---------------------------------------
+   ### HEADER / CU Branding / Main Nav
+----------------------------------------*/
+
+ header {
+
+
+    /*---------------------------------------
+    ### MCU Branding / tool bar (mobile menu 
+        plus search )
+    ----------------------------------------*/
+
+    height: 45px;
+    width: 100%;
+    background-color: #4d4e53;
+    top: 0;
+
+    // Center absolute blocks
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    .cu-logo {
+        
+        padding-left: 5px;
+    }
+
+    .glyphicon-search {
+
+        font-size: 18px;
+        float: right;
+        padding-top: 10px;
+        padding-right: 10px;
+        color: #fff;
+
+        &:hover {
+
+            opacity: .5;
+        }
+    }
 }
 
 
-/* Extra small devices (phones, up to 480px) */
-/* No media query since this is the default in Bootstrap */
 
-/*
- __                 _ _   _____      _     _      _       
-/ _\_ __ ___   __ _| | | /__   \__ _| |__ | | ___| |_ ___ 
-\ \| '_ ` _ \ / _` | | |   / /\/ _` | '_ \| |/ _ \ __/ __|
-_\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
-\__/_| |_| |_|\__,_|_|_|  \/   \__,_|_.__/|_|\___|\__|___/
+    /*---------------------------------------
+       ### Main Nav
+    ----------------------------------------*/
 
-*/
+    .navbar {
+
+        background-color: transparent;
+        border: none;
+    }
+
+    .navbar.navbar-default {
+
+        .navbar-header {
+
+            button {
+
+                position: absolute;
+                top: -49px;
+                right: 8px;
+                border: none;
+
+                &:hover {
+
+                        opacity: .5;
+                    }
+
+                .icon-bar {
+
+                    background-color: #fff;
+
+                    
+                }
+            } 
+        }
+    }
+
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+
+        background-color: transparent;
+    }
+
+    .container-fluid {
+
+        padding: 0;
+    }
+
+    #bs-example-navbar-collapse-1 {
+
+        margin: 0;
+        background-color: #fff;
+        padding: 0;
+        
+
+        ul {
+
+            margin: 0;
+            font-size: 20px;
+            padding-left: 10px;
+
+            li.active a {
+
+                background-color: transparent;
+                color: gray;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+
+
+            }
+
+            li a {
+
+                color: #4d4e53;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+                border-bottom: 1px dotted gray;
+
+
+                &:hover {
+
+                    color: gray;
+                    border-bottom: 1px dotted gray;
+                }
+            }
+            
+        }
+    }
+
+/*---------------------------------------
+    ### Hero content homepage
+---------------------------------------*/
+
+.hero {
+    padding-top: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+    //height: 552px;
+    width: 100%;
+    background: #ebeade url("../images/bg-hero-home.jpg") no-repeat top left; //top right;
+    background-size: cover;
+
+    .about {
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+        h1 {
+            
+            font-size: 30px;
+            color: #207d93;
+            line-height: 1em;
+
+            font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 700;
+        
+
+            span {
+                
+                color: #5a5b5e;
+                font-size: 18px;
+                font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 400;
+                display: inline-block;
+                padding-top: 10px;
+                line-height: 1.3em;
+            }
+        }
+
+        p {
+
+            font-size: 22px;
+            color: #4d4e53;
+            line-height: 1.29em;
+            padding-top: 10px;
+
+        }
+
+        .button-home {
+
+            background-color: #4d4e53;
+            color: #fff;
+            padding:  7px 30px;
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            text-align: center;
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+
+            transition: all 0.3s ease;
+
+            &:hover {
+
+                text-decoration: none;
+                opacity: .5;
+            }
+
+        }
+    }
+}
+
+/*---------------------------------------
+    ### Hero content homepage features
+---------------------------------------*/
+
+.home-features {
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    //border-bottom: 1px solid #ecedec;
+
+    article {
+
+        //border-bottom: 1px solid #e6e6e7;
+        //padding-bottom: 30px;
+        margin-bottom: 20px;
+        width: 95%;
+        
+        header {
+
+            height: auto;
+            width: auto;
+            background-color: #fff;
+            position: relative;
+
+            h1 {
+
+                font-size: 28px;
+                color: #207d93;
+                padding-bottom: 10px;
+                background: #fff url("../images/title-borders.png") no-repeat bottom left; 
+            }
+
+            h2 {
+
+                font-size: 20px;
+                color: #f8b954;
+
+            }
+
+            time {
+            
+                font-size: 16px;
+                color: gray;
+
+
+            }
+        }
+
+        p {
+            
+            font-size: 19px;
+        }
+
+        .button-graphic {
+        
+            background-color: #b37f2c;
+            color: #fff;
+            padding:  10px 40px;
+            font-size: 18px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+
+            &:hover {
+
+                text-decoration: none;
+                opacity: .5;
+            }
+
+        }
+    }
+}
+
+
+
+/*---------------------------------------
+    ### Interior Pages
+---------------------------------------*/
+.interior-content {
+
+
+    h2 {
+
+        font-size: 26px;
+        color: #f8b954;
+
+    }
+
+    p, ul {
+
+      font-size: 22px;  
+    }
+}
+
+
+/*---------------------------------------
+    ### Footer
+---------------------------------------*/
+footer {
+
+    width: 90%;
+    //border-top: 1px solid #ecedec;
+    clear: both;
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    padding-top: 40px;
+
+
+    .social-media {
+
+        float: right;
+        padding-top: 10px
+    }
+
+    ul {
+
+        list-style-type: none;
+        padding: 0;
+        padding-top: 20px;
+
+        li {
+
+            display: inline-block;
+            text-align: left;
+        }
+    }
+}
+
+
+
+
+/*---------------------------------------
+    ### Meqia Query 320px
+---------------------------------------*/
+
+@media (min-width: 320px) { 
+
+   body {
+
+        //background-color: yellow;
+    }
+}
+
+/*---------------------------------------
+    ### Meqia Query 480px
+---------------------------------------*/
 
 @media (min-width: 480px) { 
-	
+
+   body {
+
+        //background-color: blue;
+    }
+
+    /*---------------------------------------
+    ### Hero content homepage
+    ---------------------------------------*/
+
+    .hero {
+
+        .about {
+
+            p {
+
+                padding-bottom: 20px;
+            }
+
+            .button-home {
+
+                display: inline-block;
+                margin-top: 40px;
+                width: auto;
+                margin: 0 auto;
+
+
+            }
+        }
+    }
 }
 
-/*
- _____      _     _      _       
-/__   \__ _| |__ | | ___| |_ ___ 
-  / /\/ _` | '_ \| |/ _ \ __/ __|
- / / | (_| | |_) | |  __/ |_\__ \
- \/   \__,_|_.__/|_|\___|\__|___/
-								 
-*/
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/*---------------------------------------
+    ### Meqia Query 768pc
+---------------------------------------*/
+
+@media (min-width: 768px) { 
+
+    body {
+
+        //background-color: red;
+    }
+
+    header {
+
+        width: 90%;
+    }
+
+    // BOOTSTRAP NAVS
+
+    .navbar {
+
+        background-color: transparent;
+        border: none;
+    }
+
+
+    #bs-example-navbar-collapse-1 {
+
+        background-color: transparent;
+        padding: 0;
+
+        ul {
+
+            //border: 1px solid red;
+            font-size: 20px;
+
+            li.active a {
+
+                background-color: transparent;
+                color: gray;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+                
+
+            }
+
+            li a {
+
+                color: #4d4e53;
+                padding-right: 0;
+                padding-left: 0;
+                margin-right: 15px;
+                padding-bottom: 10px;
+                border-bottom: none;
+
+
+                &:hover {
+
+                    color: gray;
+                    border-bottom: 2px solid gray;
+                }
+            }
+
+            
+        }
+    }
+
+
+    .hero {
+
+        padding-top: 85px;
+        padding-left: 35px;
+    }
+        
 
 }
 
- /*  
-	___          _    _              
-   /   \___  ___| | _| |_ ___  _ __  
-  / /\ / _ \/ __| |/ / __/ _ \| '_ \ 
- / /_//  __/\__ \   <| || (_) | |_) |
-/___,' \___||___/_|\_\\__\___/| .__/ 
-							  |_|    
- */
-
-
-/* Medium devices (desktops, 992px and up) */
-
+/*---------------------------------------
+    ### Meqia Query 992px
+---------------------------------------*/
 @media (min-width: 992px) {  
 
+   body {
+
+        //background-color: brown;
+    } 
 }
 
-/*
-   __                           ___          _    _              
-  / /  __ _ _ __ __ _  ___     /   \___  ___| | _| |_ ___  _ __  
- / /  / _` | '__/ _` |/ _ \   / /\ / _ \/ __| |/ / __/ _ \| '_ \ 
-/ /__| (_| | | | (_| |  __/  / /_//  __/\__ \   <| || (_) | |_) |
-\____/\__,_|_|  \__, |\___| /___,' \___||___/_|\_\\__\___/| .__/ 
-				|___/                                     |_|    
-*/
-
-	
+/*---------------------------------------
+    ### Meqia Query 1200px
+---------------------------------------*/
 @media (min-width: 1200px) { 
-	
+    
+    body {
+
+        //background-color: pink;
+    }
 }
 
+/*---------------------------------------
+    ### Meqia Query 140px
+---------------------------------------*/
 @media (min-width: 1440px) { 
 
+    header,
+    .home-features,
+    footer,
+    .interior-content {
+
+        width: 1440px;
+        display: block;
+        margin: 0 auto;
+
+        border-bottom: 1px solid #ecedec;
+        padding-bottom: 30px;
+    }
+    
+    .hero-content {
+
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .hero {
+
+        height: 552px;
+
+
+        width: 100%;
+        background: #ebeade url("../images/bg-hero-home.jpg") no-repeat top right; //top right;
+        background-size: cover;
+
+        
+        -moz-transition: background .4s ease-in-out;
+        -webkit-transition: background .4s ease-in-out;
+        transition: background .4s ease-in-out;
+
+
+
+        &:hover {
+
+            background: #ebeade url("../images/bg-hero-home-t.jpg") no-repeat top right;
+
+            background-size: cover;
+        }
+    }
+
+    .hero.interior-pages {
+
+        height: 200px;
+
+
+    }
+
+    .home-features {
+
+        padding-top: 30px;
+    }
+
+
 }
+
+
+
+
+
+
+
+    
