@@ -116,46 +116,13 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         </section>
 
 
-        
-
-
         <header>
 
             <a class="cu-logo"href="http://www.cornell.edu"><img src="/<?php print $theme_path; ?>images/cornell-logo.png" /></a>
             <a class="search" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 
-            <?php print render($page['navigation']); ?>
-            <nav class="navbar navbar-default">
-            
-                <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
+            <?php print render($page['main_nav']); ?>
 
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                       <ul class="nav navbar-nav">
-                            <li class="active"><a href="/">Home</a></li>
-                            <li><a href="/content/about">About</a></li>
-                            <li><a href="/services">Services</a></li>
-                            <li><a href="/content/data-management-planning">Data Management Planning</a></li>
-                            <li><a href="/content/best-practices">Best Practices </a></li>
-                        </ul>
-
-                        
-
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
-            
         </header>
         
 
@@ -311,27 +278,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
         <footer>
-
-            <div class="social-media">
-                
-                <a href="#"><img src="/<?php print $theme_path; ?>images/icon-twitter.png" alt=""></a>
-                <a href="#"><img src="/<?php print $theme_path; ?>images/icon-flicker.png" alt=""></a>
-
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a class="active" href="#">Home</a> / </li>
-                    <li><a href="#">Contact RDMSG</a> / </li>
-                    <li><a href="#">Office Hours</a> / </li>
-                    <li><a href="#">Join our mailing list</a> / </li>
-                    <li><a href="#">Privacy Statement</a> / </li>
-                    <li><a href="#">FAQ</a> / </li>
-                    <li><a href="#">Site Map</a></li>
-                </ul>
-            </nav>
-
-            <p>Creative Commons License: This work is licensed under a Creative Commons Attribution 4.0 International License / <a href="#" title="">Image Credits</a></p>
 
             <?php print render($page['footer']); ?>
 

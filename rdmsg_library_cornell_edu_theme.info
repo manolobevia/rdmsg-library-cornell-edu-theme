@@ -19,14 +19,17 @@ regions[page_bottom]    = 'Page bottom'
 regions[highlights]    	= 'Highlights'
 regions[features]    	= 'Features'
 regions[sidebar]    	= 'Sidebar'
-regions[footer]         = 'Footer'
 
+
+
+regions[main_nav]     	= 'Main Nav'
 regions[recent_news]       	= 'Recent News'
 regions[service_spotlight] 	= 'Service Spotlight'
 regions[tweets]         	= 'Tweets'
 regions[services]         	= 'Services'
 regions[best_practices]    	= 'Best Practices'
 regions[consult_us]         = 'Consult Us'
+regions[footer]         	= 'Footer'
 
 ; Global regions
 ; regions[navigation]     	= 'Navigation'
