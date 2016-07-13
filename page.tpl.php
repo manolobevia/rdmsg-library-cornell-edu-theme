@@ -82,22 +82,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 <!-- <?php print $theme_path; ?> -->
 
 
-<?php print $messages; ?>
-
-<?php if (!empty($tabs)): ?>
-    <?php print render($tabs); ?>
-<?php endif; ?>
-
-<?php if (!empty($page['help'])): ?>
-    <?php print render($page['help']); ?>
-<?php endif; ?>
-
-
-
-
-
-
-
 
 
 
@@ -157,6 +141,25 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+            <?php print $messages; ?>
+
+            <?php if (!empty($tabs)): ?>
+                <?php print render($tabs); ?>
+            <?php endif; ?>
+
+            <?php if (!empty($page['help'])): ?>
+                <?php print render($page['help']); ?>
+            <?php endif; ?>
+
+
+
+
+
+
+
+
 
 
             <h3><?php print $title ?></h3>
