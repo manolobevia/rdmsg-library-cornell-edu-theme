@@ -53,7 +53,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
     </head>
 
-    <body class="homepage <?php print $classes; ?>" <?php print $attributes;?>>
+    <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 
     <?php print $page_top; ?>
     <?php print $page; ?>
