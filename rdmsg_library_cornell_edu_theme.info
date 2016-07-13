@@ -1,5 +1,5 @@
-name = AFRICANA-LIBRARY
-description = A Bootstrap sub-theme for AFRICANA-LIBRARY.
+name = RDMSG
+description = A Bootstrap sub-theme for RDMSG.
 core = 7.x
 base theme = bootstrap
 
