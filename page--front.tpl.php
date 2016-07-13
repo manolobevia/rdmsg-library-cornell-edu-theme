@@ -123,10 +123,12 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         </section>
 
 
+        
+
 
         <header>
 
-            <a class="cu-logo"href="http://www.cornell.edu"><img src="images/cornell-logo.png" /></a>
+            <a class="cu-logo"href="http://www.cornell.edu"><img src="<?php print $theme_path; ?>images/cornell-logo.png" /></a>
             <a href=""><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 
 
@@ -316,8 +318,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
             <div class="social-media">
                 
-                <a href="#"><img src="images/icon-twitter.png" alt=""></a>
-                <a href="#"><img src="images/icon-flicker.png" alt=""></a>
+                <a href="#"><img src="<?php print $theme_path; ?>images/icon-twitter.png" alt=""></a>
+                <a href="#"><img src="<?php print $theme_path; ?>images/icon-flicker.png" alt=""></a>
 
             </div>
 
