@@ -143,7 +143,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 
-            <h3><?php print $title ?></h3>
+            <h2><?php print $title ?></h2>
         
         	<?php print render($page['content']); ?>
            
