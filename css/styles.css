@@ -5493,7 +5493,8 @@ footer {
 
   .hero-content {
     width: 1440px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 50px; }
 
   .hero {
     height: 552px;
