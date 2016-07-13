@@ -5492,7 +5492,11 @@ footer {
     width: 1440px;
     display: block;
     margin: 0 auto;
+    border-bottom: 1px solid #ecedec;
     padding-bottom: 30px; }
+
+  .home-features {
+    border-bottom: none; }
 
   .not-front .hero-content {
     width: 1440px;

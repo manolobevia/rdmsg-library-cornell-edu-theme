@@ -124,7 +124,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             <a class="cu-logo"href="http://www.cornell.edu"><img src="/<?php print $theme_path; ?>images/cornell-logo.png" /></a>
             <a class="search" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 
-
+            <?php print render($page['navigation']); ?>
             <nav class="navbar navbar-default">
             
                 <div class="container-fluid">
@@ -149,6 +149,9 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                             <li><a href="/content/data-management-planning">Data Management Planning</a></li>
                             <li><a href="/content/best-practices">Best Practices </a></li>
                         </ul>
+
+                        
+
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
@@ -329,6 +332,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             </nav>
 
             <p>Creative Commons License: This work is licensed under a Creative Commons Attribution 4.0 International License / <a href="#" title="">Image Credits</a></p>
+
+            <?php print render($page['footer']); ?>
 
         </footer>
 
