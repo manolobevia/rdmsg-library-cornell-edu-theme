@@ -106,9 +106,19 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 how-do-i">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
-                    Drop Down
+                    <div id="how-do-i">
+
+                        <a class="how-do-i-select" href="#">How do I ...<span><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+
+                        <ul class="how-do-i-options">
+                            <li><a href="#">Trim garlic stems</a></li>
+                            <li><a href="#">Harvest potatoes early</a></li>
+                            <li><a href="#">Plant tomato seeds</a></li>
+                        </ul>
+
+                    </div>
 
                 </div>
             </div>
@@ -198,24 +208,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             </div>
 
         </section>
-
-
-
-
-    <div id="how-do-i">
-
-        <a class="how-do-i-select" href="#">How do I ...<span><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
-
-        <ul class="how-do-i-options">
-            <li><a href="#">Trim garlic stems</a></li>
-            <li><a href="#">Harvest potatoes early</a></li>
-            <li><a href="#">Plant tomato seeds</a></li>
-        </ul>
-
-    </div>
-
-
-
 
     <section class="row home-features">
 
