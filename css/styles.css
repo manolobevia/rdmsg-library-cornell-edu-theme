@@ -5355,6 +5355,10 @@ header {
   border: 1px solid #d6d6d6;
   display: inline-block;
   background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 80%;
   margin: 0 auto; }
   #how-do-i .how-do-i-select {
     color: #4d4e53;
