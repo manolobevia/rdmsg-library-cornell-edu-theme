@@ -201,6 +201,22 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
 
+
+    <div id="how-do-i">
+
+        <a class="how-do-i-select" href="#">How do I ...<span><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+
+        <ul class="how-do-i-options">
+            <li><a href="#">Trim garlic stems</a></li>
+            <li><a href="#">Harvest potatoes early</a></li>
+            <li><a href="#">Plant tomato seeds</a></li>
+        </ul>
+
+    </div>
+
+
+
+
     <section class="row home-features">
 
 
