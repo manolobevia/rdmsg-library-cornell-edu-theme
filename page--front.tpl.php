@@ -262,6 +262,12 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             
                 <article>
 
+                     <header>
+                    
+                        <h1>TWEETS</h1>
+
+                    </header>
+
                     <?php print render($page['tweets']); ?>
 
                 </article>
