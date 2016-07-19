@@ -5270,7 +5270,8 @@ header {
   background-color: transparent; }
 
 .container-fluid {
-  padding: 0; }
+  padding-left: 20px;
+  padding-right: 20px; }
 
 #bs-example-navbar-collapse-1 {
   margin: 0;
