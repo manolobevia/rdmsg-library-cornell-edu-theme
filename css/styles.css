@@ -5353,7 +5353,8 @@ header {
 #how-do-i {
   margin-top: 10px;
   border: 1px solid #d6d6d6;
-  background-color: #fff; }
+  background-color: #fff;
+  padding-left: 20px; }
   #how-do-i .how-do-i-select {
     color: #4d4e53;
     padding: 12px 20px 10px 20px;
