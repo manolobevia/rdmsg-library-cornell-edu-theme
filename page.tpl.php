@@ -121,10 +121,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                 <?php print render($tabs); ?>
             <?php endif; ?>
 
-            <?php if (!empty($page['help'])): ?>
-                <?php print render($page['help']); ?>
-            <?php endif; ?>
-
 
             <h2 class="title"><?php print $title ?></h2>
             
