@@ -126,14 +126,10 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             <?php endif; ?>
 
 
-        <h3><?php print $title ?></h3>
-        
-        <?php print render($page['content']); ?>
-
-
             <h2 class="title"><?php print $title ?></h2>
-        
-        	<?php print render($page['content']); ?>
+            
+            <?php print render($page['content']); ?>
+
            
         </div>
 
