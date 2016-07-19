@@ -5270,8 +5270,7 @@ header {
   background-color: transparent; }
 
 .container-fluid {
-  padding-left: 20px;
-  padding-right: 20px; }
+  padding: 0; }
 
 #bs-example-navbar-collapse-1 {
   margin: 0;
@@ -5433,17 +5432,20 @@ header {
 /*---------------------------------------
     ### Interior Pages
 ---------------------------------------*/
-.interior-content h2, .interior-content .h2 {
-  font-size: 26px;
-  color: #f8b954; }
-.interior-content h2.title {
-  font-size: 30px;
-  color: #207d93;
-  background: #fff url("../images/title-borders.png") repeat-x bottom left;
-  padding-bottom: 10px;
-  display: inline-block; }
-.interior-content p, .interior-content ul {
-  font-size: 20px; }
+.interior-content {
+  padding-left: 20px;
+  padding-right: 20px; }
+  .interior-content h2, .interior-content .h2 {
+    font-size: 26px;
+    color: #f8b954; }
+  .interior-content h2.title {
+    font-size: 30px;
+    color: #207d93;
+    background: #fff url("../images/title-borders.png") repeat-x bottom left;
+    padding-bottom: 10px;
+    display: inline-block; }
+  .interior-content p, .interior-content ul {
+    font-size: 20px; }
 
 /*---------------------------------------
     ### Footer

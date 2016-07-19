@@ -154,8 +154,7 @@ body {
 
     .container-fluid {
 
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0;
     }
 
     #bs-example-navbar-collapse-1 {
@@ -450,6 +449,9 @@ body {
     ### Interior Pages
 ---------------------------------------*/
 .interior-content {
+
+    padding-left: 20px;
+    padding-right: 20px;
 
 
     h2, .h2 {
