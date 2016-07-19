@@ -5309,8 +5309,8 @@ header {
   background: #ebeade url("../images/bg-hero-home.jpg") no-repeat top left;
   background-size: cover; }
   .hero .about {
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding-left: 20px;
+    padding-right: 20px; }
     .hero .about h1 {
       font-size: 30px;
       color: #207d93;
@@ -5354,13 +5354,13 @@ header {
   border: 1px solid #d6d6d6;
   display: inline-block;
   background-color: #fff;
-  margin: 0 auto; }
+  width: 90%; }
   #how-do-i .how-do-i-select {
     color: #4d4e53;
     padding: 12px 20px 10px 20px;
     font-size: 32px;
     font-weight: bold;
-    width: 290px;
+    width: 100%;
     display: block; }
     #how-do-i .how-do-i-select span {
       float: right;

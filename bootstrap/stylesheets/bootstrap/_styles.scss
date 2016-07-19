@@ -217,8 +217,8 @@ body {
 
     .about {
 
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         h1 {
             
@@ -235,7 +235,7 @@ body {
                 color: #5a5b5e;
                 font-size: 18px;
                 font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-weight: 400;
+                font-weight: 400;
                 display: inline-block;
                 padding-top: 10px;
                 line-height: 1.3em;
@@ -293,7 +293,8 @@ body {
     border: 1px solid #d6d6d6;
     display: inline-block;
     background-color: #fff;
-    margin: 0 auto;
+    //margin: 0 auto;
+    width: 90%;
 
     
     .how-do-i-select {
@@ -305,7 +306,7 @@ body {
 
         
         //width: 400px;
-        width: 290px;
+        width: 100%;
         display: block;
 
         span {
