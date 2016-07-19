@@ -5434,7 +5434,8 @@ header {
 ---------------------------------------*/
 .interior-content {
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  width: 90%; }
   .interior-content h2, .interior-content .h2 {
     font-size: 26px;
     color: #f8b954; }

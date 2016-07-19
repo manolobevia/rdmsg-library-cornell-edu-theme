@@ -65,7 +65,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
-    -->
+    
 
     </body>
 </html>
