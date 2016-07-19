@@ -5434,8 +5434,7 @@ header {
 ---------------------------------------*/
 .interior-content {
   padding-left: 20px;
-  padding-right: 20px;
-  width: 90%; }
+  padding-right: 20px; }
   .interior-content h2, .interior-content .h2 {
     font-size: 26px;
     color: #f8b954; }
@@ -5527,7 +5526,10 @@ footer {
 
   .hero {
     padding-top: 85px;
-    padding-left: 35px; } }
+    padding-left: 35px; }
+
+  .interior-content {
+    width: 90%; } }
 /*---------------------------------------
     ### Meqia Query 992px
 ---------------------------------------*/
