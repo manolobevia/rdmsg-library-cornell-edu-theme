@@ -653,7 +653,6 @@ footer {
         width: 90%;
 
     }      
-
 }
 
 /*---------------------------------------
@@ -671,6 +670,11 @@ footer {
         margin-top: 50px;
         padding-left: 50px;
     }
+
+    #how-do-i {
+
+        width: 420px;
+    }
 }
 
 /*---------------------------------------
@@ -681,6 +685,11 @@ footer {
     body {
 
         //background-color: pink;
+    }
+
+    #how-do-i {
+
+        width: 520px;
     }
 }
 
@@ -700,7 +709,11 @@ footer {
         padding-bottom: 30px;
     }
 
-    
+    #how-do-i {
+
+        width: 600px;
+    }
+
     .not-front .hero-content {
 
         width: 1440px;

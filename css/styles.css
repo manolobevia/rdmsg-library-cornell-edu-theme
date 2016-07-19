@@ -5536,10 +5536,16 @@ footer {
 @media (min-width: 992px) {
   .how {
     margin-top: 50px;
-    padding-left: 50px; } }
+    padding-left: 50px; }
+
+  #how-do-i {
+    width: 420px; } }
 /*---------------------------------------
     ### Meqia Query 1200px
 ---------------------------------------*/
+@media (min-width: 1200px) {
+  #how-do-i {
+    width: 520px; } }
 /*---------------------------------------
     ### Meqia Query 140px
 ---------------------------------------*/
@@ -5552,6 +5558,9 @@ footer {
     display: block;
     margin: 0 auto;
     padding-bottom: 30px; }
+
+  #how-do-i {
+    width: 600px; }
 
   .not-front .hero-content {
     width: 1440px;
