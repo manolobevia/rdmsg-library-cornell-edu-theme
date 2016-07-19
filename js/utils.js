@@ -5,6 +5,9 @@ $( document ).ready(function() {
 
       var loc = window.location.href; // returns the full URL
 
+      $('.front #home').addClass('active');
+      $('.not-front #home').addClass('active');
+
       if(/about/.test(loc)) {
         
         $('#about').addClass('active');
