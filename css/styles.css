@@ -5351,6 +5351,7 @@ header {
     ### How do I feature on Homepage
 ---------------------------------------*/
 #how-do-i {
+  margin-top: 10px;
   border: 1px solid #d6d6d6;
   background-color: #fff; }
   #how-do-i .how-do-i-select {
@@ -5479,7 +5480,10 @@ footer {
     display: inline-block;
     margin-top: 40px;
     width: auto;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  #how-do-i {
+    width: 343px; } }
 /*---------------------------------------
     ### Meqia Query 768pc
 ---------------------------------------*/
