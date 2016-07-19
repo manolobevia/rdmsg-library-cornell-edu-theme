@@ -106,7 +106,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 how">
 
 
                      <div id="how-do-i">
