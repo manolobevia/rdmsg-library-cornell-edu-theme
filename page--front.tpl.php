@@ -262,19 +262,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             
                 <article>
 
-                    <header>
-                    
-                        <h1>RECENT NEWS</h1>
-
-                        <h2>Cornell Geospatial Forum</h2>
-
-                        <time itemprop="dateCreated" datetime="2016-01-29"> Jan 29, 2016</time>
-
-                    </header>
-
-                    <p>The second annual Cornell Geospatial Forum, a one day gathering of faculty, staff, students, and community members to discuss geospatial science and technology research and extension at Cornell and the surrounding Ithaca community, will be held Tuesday October 13th, 2015.</p>
-
-                    <a href='#' class='button-graphic'>Read more</a>
+                    <?php print render($page['tweets']); ?>
 
                 </article>
 
