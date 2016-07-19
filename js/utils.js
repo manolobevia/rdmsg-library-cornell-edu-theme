@@ -5,9 +5,24 @@ $( document ).ready(function() {
 
       var loc = window.location.href; // returns the full URL
 
-      console.log ("location" + log);
-      if(/who-we-are/.test(loc)) {
-        $('#who-we-are').addClass('active');
+      if(/about/.test(loc)) {
+        
+        $('#about').addClass('active');
+      }
+
+      if(/services/.test(loc)) {
+        
+        $('#services').addClass('active');
+      }
+
+      if(/data-management-planning/.test(loc)) {
+        
+        $('#data-management-planning').addClass('active');
+      }
+
+      if(/best-practices/.test(loc)) {
+        
+        $('#best-practices').addClass('active');
       }
 
 });
