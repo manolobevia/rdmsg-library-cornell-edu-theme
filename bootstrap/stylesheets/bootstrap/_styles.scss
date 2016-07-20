@@ -545,6 +545,26 @@ footer {
     display: none;
 }
 
+
+.page-search-node {
+
+    .input-group {
+
+        width: 100%;
+
+        #edit-keys {
+
+            height: 50px;
+            font-size: 18px;
+        }
+
+        button {
+
+            height: 50px;
+        }
+    }
+}
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
@@ -597,6 +617,16 @@ footer {
 
         width: 343px;
 
+    }
+
+
+    .page-search-node {
+
+        .input-group {
+
+            width: 90%;
+
+        }
     }
 }
 
@@ -679,7 +709,16 @@ footer {
 
         width: 90%;
 
-    }      
+    } 
+
+    .page-search-node {
+
+        .input-group {
+
+            width: 400px;
+
+        }
+    }     
 }
 
 /*---------------------------------------

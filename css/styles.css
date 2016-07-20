@@ -5480,6 +5480,14 @@ footer {
 .breadcrumb-wrapper {
   display: none; }
 
+.page-search-node .input-group {
+  width: 100%; }
+  .page-search-node .input-group #edit-keys {
+    height: 50px;
+    font-size: 18px; }
+  .page-search-node .input-group button {
+    height: 50px; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
@@ -5499,7 +5507,10 @@ footer {
     margin: 0 auto; }
 
   #how-do-i {
-    width: 343px; } }
+    width: 343px; }
+
+  .page-search-node .input-group {
+    width: 90%; } }
 /*---------------------------------------
     ### Meqia Query 768pc
 ---------------------------------------*/
@@ -5539,7 +5550,10 @@ footer {
     padding-left: 35px; }
 
   .interior-content {
-    width: 90%; } }
+    width: 90%; }
+
+  .page-search-node .input-group {
+    width: 400px; } }
 /*---------------------------------------
     ### Meqia Query 992px
 ---------------------------------------*/
