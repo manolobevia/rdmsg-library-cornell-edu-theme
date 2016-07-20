@@ -32,6 +32,9 @@ $( document ).ready(function() {
 
       // Navigation selected footer navigation hightlighted
 
+      $('.front #home').addClass('active-footer');
+      $('.not-front #home').removeClass('active-footer');
+
       if(/calendar/.test(loc)) {
         
         $('#calendar').addClass('active-footer');
