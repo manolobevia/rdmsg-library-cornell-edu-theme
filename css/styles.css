@@ -5491,6 +5491,7 @@ footer {
     height: 50px; }
 
 .well.about {
+  float: left;
   margin-top: 20px; }
 
 /*---------------------------------------
