@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 
-// Navigation Selected menu hightlighted
+	// Navigation selected main navigation hightlighted
 
       var loc = window.location.href; // returns the full URL
 
@@ -27,6 +27,39 @@ $( document ).ready(function() {
         
         $('#best-practices').addClass('active');
       }
+
+
+
+      // Navigation selected footer navigation hightlighted
+
+      if(/calendar/.test(loc)) {
+        
+        $('#calendar').addClass('active-footer');
+      }
+
+      if(/mailing-list/.test(loc)) {
+        
+        $('#mailing-list').addClass('active-footer');
+      }
+
+      if(/privacy/.test(loc)) {
+        
+        $('#privacy').addClass('active-footer');
+      }
+
+      if(/faq/.test(loc)) {
+        
+        $('#faq').addClass('active-footer');
+      }
+
+      if(/site-index/.test(loc)) {
+        
+        $('#site-index').addClass('active-footer');
+      }
+
+
+
+
 
 });
 

@@ -5473,6 +5473,8 @@ footer {
     footer ul li {
       display: inline-block;
       text-align: left; }
+    footer ul li.active-footer a {
+      color: #4d4e53; }
 
 .interior-content {
   min-height: 300px; }
