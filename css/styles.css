@@ -5512,7 +5512,12 @@ footer {
     width: 343px; }
 
   .page-search-node .input-group {
-    width: 90%; } }
+    width: 90%; }
+
+  .well.about {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px; } }
 /*---------------------------------------
     ### Meqia Query 768pc
 ---------------------------------------*/

@@ -541,20 +541,6 @@ footer {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .interior-content {
 
         min-height: 300px;
@@ -584,6 +570,11 @@ footer {
         }
     }
 }
+
+
+
+
+
 
 /*---------------------------------------
     ### Meqia Query 320px
@@ -647,6 +638,13 @@ footer {
             width: 90%;
 
         }
+    }
+
+    .well.about {
+
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
 }
 
