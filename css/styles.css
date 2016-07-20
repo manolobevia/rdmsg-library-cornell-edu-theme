@@ -5490,6 +5490,9 @@ footer {
   .page-search-node .input-group button {
     height: 50px; }
 
+.well.about {
+  margin-top: 20px; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
@@ -5512,7 +5515,12 @@ footer {
     width: 343px; }
 
   .page-search-node .input-group {
-    width: 90%; } }
+    width: 90%; }
+
+  .well.about {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px; } }
 /*---------------------------------------
     ### Meqia Query 768pc
 ---------------------------------------*/
