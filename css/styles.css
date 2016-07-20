@@ -5399,6 +5399,8 @@ header {
   .home-features article {
     margin-bottom: 20px;
     width: 95%; }
+    .home-features article header.twitter {
+      padding-bottom: 0; }
     .home-features article header {
       height: auto;
       width: auto;
