@@ -5513,7 +5513,8 @@ footer {
 
   .page-search-node .input-group {
     width: 90%; } }
-.well-about {
+.well-about,
+.well-data {
   margin-top: 20px; }
 
 /*---------------------------------------
