@@ -5474,8 +5474,8 @@ footer {
       display: inline-block;
       text-align: left; }
 
-.page-search .interior-content {
-  height: 300px; }
+.interior-content {
+  min-height: 300px; }
 
 .breadcrumb-wrapper {
   display: none; }
