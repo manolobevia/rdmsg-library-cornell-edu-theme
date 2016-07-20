@@ -5490,6 +5490,11 @@ footer {
   .page-search-node .input-group button {
     height: 50px; }
 
+.well.about {
+  float: none;
+  margin-left: 0;
+  margin-bottom: 0; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
