@@ -22,7 +22,8 @@ regions[sidebar]    	= 'Sidebar'
 
 
 
-regions[main_nav]     	= 'Main Nav'
+regions[main_nav]     	    = 'Main Nav'
+regions[home_hero_content]  = 'Home Hero Content'
 regions[recent_news]       	= 'Recent News'
 regions[service_spotlight] 	= 'Service Spotlight'
 regions[tweets]         	= 'Tweets'

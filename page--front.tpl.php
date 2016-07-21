@@ -95,31 +95,14 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 about">
 
-                    <h1>RESEARCH DATA MANAGEMENT <br />SERVICE GROUP<br /><span>Comprehensive Data Management Planning & Services</span></h1>
-                   
-
-                    <p>The Research Data Management Service Group (RDMSG) is a collaborative, campus-wide organization that assists with creating and implementing data management plans, applying best practices for managing data, and finding data management services at any stage of the research process.</p>
-
-                    <a href='#' class='button-home'>Email Us</a>
-
-                    <a href='#' class='button-home'>Online Office Hours</a>
+                    <?php print render($page['home_hero_content']); ?>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 how">
 
-
-                     <div id="how-do-i">
-
-                        <a class="how-do-i-select" href="#">How do I ...<span><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
-
-                        <ul class="how-do-i-options">
-                            <li><a href="#">Trim garlic stems</a></li>
-                            <li><a href="#">Harvest potatoes early</a></li>
-                            <li><a href="#">Plant tomato seeds</a></li>
-                        </ul>
-
-                    </div>
+                    <?php print render($page['how_do_i']); ?>
+                    
                 </div>
             </div>
             
