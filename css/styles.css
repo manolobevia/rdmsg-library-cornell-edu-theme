@@ -5431,7 +5431,8 @@ header {
       transition: all 0.5s ease-in; }
       .home-features article .button-graphic:hover {
         text-decoration: none;
-        opacity: .5; }
+        opacity: .5;
+        transition: all 0.5s ease-out; }
 
 /*---------------------------------------
     ### Interior Pages
