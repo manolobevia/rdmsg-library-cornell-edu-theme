@@ -24,6 +24,7 @@ regions[sidebar]    	= 'Sidebar'
 
 regions[main_nav]     	    = 'Main Nav'
 regions[home_hero_content]  = 'Home Hero Content'
+regions[how_do_i]  			= 'How Do I'
 regions[recent_news]       	= 'Recent News'
 regions[service_spotlight] 	= 'Service Spotlight'
 regions[tweets]         	= 'Tweets'
@@ -31,6 +32,7 @@ regions[services]         	= 'Services'
 regions[best_practices]    	= 'Best Practices'
 regions[consult_us]         = 'Consult Us'
 regions[footer]         	= 'Footer'
+
 
 ; Global regions
 ; regions[navigation]     	= 'Navigation'
