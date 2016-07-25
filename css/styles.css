@@ -5428,11 +5428,11 @@ header {
       font-size: 18px;
       display: inline-block;
       margin-top: 10px;
-      transition: all 0.5s ease-in; }
+      transition: opacity 0.5s ease-in; }
       .home-features article .button-graphic:hover {
         text-decoration: none;
         opacity: .5;
-        transition: all 0.5s ease-out; }
+        transition: opacity 0.5s ease-out; }
 
 /*---------------------------------------
     ### Interior Pages
