@@ -5493,6 +5493,9 @@ footer {
   .page-search-node .input-group button {
     height: 50px; }
 
+.timeline-Tweet-media a img {
+  display: none; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
