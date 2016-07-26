@@ -5451,7 +5451,7 @@ header {
     background: #fff url("../images/title-borders.png") repeat-x bottom left;
     padding-bottom: 10px;
     display: inline-block; }
-  .interior-content p, .interior-content ul {
+  .interior-content p, .interior-content ul, .interior-content ol {
     font-size: 20px; }
 
 /*---------------------------------------
