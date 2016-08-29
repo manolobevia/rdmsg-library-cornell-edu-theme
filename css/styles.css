@@ -5496,6 +5496,13 @@ footer {
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
+@media (min-width: 320px) {
+  .well-about,
+  .well-data {
+    margin-top: 20px;
+    width: auto;
+    float: right;
+    margin-left: 20px; } }
 /*---------------------------------------
     ### Meqia Query 480px
 ---------------------------------------*/
@@ -5515,14 +5522,7 @@ footer {
     width: 343px; }
 
   .page-search-node .input-group {
-    width: 90%; }
-
-  .well-about,
-  .well-data {
-    margin-top: 20px;
-    width: auto;
-    float: right;
-    margin-left: 20px; } }
+    width: 90%; } }
 /*---------------------------------------
     ### Meqia Query 768pc
 ---------------------------------------*/
