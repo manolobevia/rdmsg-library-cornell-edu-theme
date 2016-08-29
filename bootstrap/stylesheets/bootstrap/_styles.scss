@@ -576,7 +576,12 @@ footer {
         }
     }
 }
+ .well-about,
+    .well-data {
 
+
+        border: 1px solid blue;
+    }
 
 /*---------------------------------------
     ### Meqia Query 320px
@@ -596,6 +601,7 @@ footer {
         width: auto;
         float: right;
         margin-left: 20px;
+        border: 1px solid red;
     }
 
 }
