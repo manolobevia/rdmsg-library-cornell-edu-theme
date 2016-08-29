@@ -5496,7 +5496,8 @@ footer {
 .well-about,
 .well-data {
   width: 100%;
-  float: none; }
+  float: left;
+  margin-left: 0; }
 
 /*---------------------------------------
     ### Meqia Query 320px

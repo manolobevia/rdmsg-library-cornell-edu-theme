@@ -580,8 +580,10 @@ footer {
 .well-about,
 .well-data {
 
+   
     width: 100%;
-    float: none;
+    float: left;
+    margin-left: 0;
 
 }
 
@@ -596,7 +598,7 @@ footer {
 
         //background-color: yellow;
     }
-    
+
     .well-about,
     .well-data {
 
