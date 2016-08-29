@@ -5509,8 +5509,9 @@ footer {
 
 .consultant-item {
   margin-top: 30px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #eceade; }
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eceade;
+  margin-bottom: 30px; }
 
 .photo-consultant img {
   width: 100%;
