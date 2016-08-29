@@ -5507,9 +5507,14 @@ footer {
   float: left;
   margin-left: 0; }
 
+.consultant-item {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
 .photo-consultant img {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  border: 6px solid #eceade; }
 
 /*---------------------------------------
     ### Meqia Query 320px
