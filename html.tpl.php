@@ -59,11 +59,6 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
     <?php print $page; ?>
     <?php print $page_bottom; ?>
 
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
     <script type="text/javascript" src="/<?php print $theme_path; ?>js/utils.js"></script>
     
 
