@@ -5507,6 +5507,9 @@ footer {
   float: left;
   margin-left: 0; }
 
+.photo-consultant img {
+  width: 100%; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
