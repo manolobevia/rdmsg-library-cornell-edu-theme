@@ -596,6 +596,14 @@ footer {
 
         //background-color: yellow;
     }
+    
+    .well-about,
+    .well-data {
+
+        width: auto;
+        float: right;
+        margin-left: 20px;
+    }
 }
 
 /*---------------------------------------
@@ -659,13 +667,7 @@ footer {
     margin-top: 20px;
 }
 
-.well-about,
-.well-data {
 
-    width: auto;
-    float: right;
-    margin-left: 20px;
-}
 
 /*---------------------------------------
     ### Meqia Query 768pc
