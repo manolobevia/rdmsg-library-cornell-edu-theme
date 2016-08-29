@@ -578,13 +578,20 @@ footer {
 }
 
 
-  .well-about,
-    .well-data {
+    .well-about,
+    .well-data,
+    .well-science {
 
         margin-top: 20px;
         width: 100%;
         float: left;
         margin-left: 0;
+
+    }
+
+    .well-science {
+
+        margin-top: 40px;
 
     }
 
@@ -657,7 +664,8 @@ footer {
     }
 
     .well-about,
-    .well-data {
+    .well-data,
+    .well-science  {
 
         margin-top: 20px;
         width: auto;

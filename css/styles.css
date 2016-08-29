@@ -5494,11 +5494,15 @@ footer {
     height: 50px; }
 
 .well-about,
-.well-data {
+.well-data,
+.well-science {
   margin-top: 20px;
   width: 100%;
   float: left;
   margin-left: 0; }
+
+.well-science {
+  margin-top: 40px; }
 
 /*---------------------------------------
     ### Meqia Query 320px
@@ -5525,7 +5529,8 @@ footer {
     width: 90%; }
 
   .well-about,
-  .well-data {
+  .well-data,
+  .well-science {
     margin-top: 20px;
     width: auto;
     float: right;
