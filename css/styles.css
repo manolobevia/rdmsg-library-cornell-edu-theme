@@ -5493,21 +5493,9 @@ footer {
   .page-search-node .input-group button {
     height: 50px; }
 
-.well-about,
-.well-data {
-  width: 100%;
-  float: left;
-  margin-left: 0; }
-
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
-@media (min-width: 320px) {
-  .well-about,
-  .well-data {
-    width: auto;
-    float: right;
-    margin-left: 20px; } }
 /*---------------------------------------
     ### Meqia Query 480px
 ---------------------------------------*/
