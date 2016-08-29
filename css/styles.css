@@ -5445,6 +5445,9 @@ header {
   .interior-content h2, .interior-content .h2 {
     font-size: 26px;
     color: #207d93; }
+  .interior-content a h2 {
+    font-size: 26px;
+    color: #207d93; }
   .interior-content h3, .interior-content .h3 {
     font-size: 20px;
     color: #207d93; }
