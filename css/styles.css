@@ -5518,7 +5518,10 @@ footer {
     width: 90%; } }
 .well-about,
 .well-data {
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: auto;
+  float: right;
+  margin-left: 20px; }
 
 /*---------------------------------------
     ### Meqia Query 768pc
