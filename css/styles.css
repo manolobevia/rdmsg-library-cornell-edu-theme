@@ -5501,9 +5501,6 @@ footer {
   float: left;
   margin-left: 0; }
 
-.well-science {
-  margin-top: 40px; }
-
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
@@ -5534,7 +5531,10 @@ footer {
     margin-top: 20px;
     width: auto;
     float: right;
-    margin-left: 20px; } }
+    margin-left: 20px; }
+
+  .well-science {
+    width: 70%; } }
 /*---------------------------------------
     ### Meqia Query 768pc
 ---------------------------------------*/
