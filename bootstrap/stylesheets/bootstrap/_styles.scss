@@ -509,6 +509,18 @@ body {
 
     }
 
+    h2 a[name] {
+
+        color: #207d93;
+        text-decoration: none;
+    }
+
+    h2 a[name]:hover {
+
+        color: #207d93;
+        text-decoration: none;
+    }
+
     p, ul, ol {
 
       font-size: 20px;  

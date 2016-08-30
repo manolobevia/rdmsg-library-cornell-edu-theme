@@ -5457,6 +5457,12 @@ header {
     background: #fff url("../images/title-borders.png") repeat-x bottom left;
     padding-bottom: 10px;
     display: inline-block; }
+  .interior-content h2 a[name] {
+    color: #207d93;
+    text-decoration: none; }
+  .interior-content h2 a[name]:hover {
+    color: #207d93;
+    text-decoration: none; }
   .interior-content p, .interior-content ul, .interior-content ol {
     font-size: 20px; }
 
