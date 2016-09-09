@@ -119,7 +119,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                         
                         <div class="input-group">
 
-                            <input type="text" maxlength="255" size="40" value="" name="keys" id="edit-keys" class="form-control form-text" placeholder="Search">
+                            <input type="text" maxlength="255" size="40" value="" name="keys" id="edit-keys" class="form-control form-text" />
 
                             <span class="input-group-btn">
 
