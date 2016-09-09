@@ -5624,18 +5624,14 @@ footer {
   #how-do-i {
     width: 420px; }
 
-  .well-science img {
-    width: 420px;
-    border: 9px solid pink; } }
+  .science-img {
+    width: 600px; } }
 /*---------------------------------------
     ### Meqia Query 1200px
 ---------------------------------------*/
 @media (min-width: 1200px) {
   #how-do-i {
     width: 520px; }
-
-  .well-science img {
-    width: 100%; }
 
   .science-img {
     width: 600px; } }
