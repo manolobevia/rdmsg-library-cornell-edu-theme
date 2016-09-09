@@ -5538,7 +5538,8 @@ footer {
   padding: 12px 10px;
   margin: 0;
   z-index: 99999;
-  position: absolute; }
+  position: absolute;
+  top: 0; }
 
 .search-banner p {
   font-family: "Lucida Grande",helvetica,arial,verdana,sans-serif;
@@ -5556,7 +5557,8 @@ footer {
 .search-banner .close-search-banner {
   position: absolute;
   top: 12px;
-  right: 10px; }
+  right: 10px;
+  font-size: 18px; }
 
 /*---------------------------------------
     ### Meqia Query 320px

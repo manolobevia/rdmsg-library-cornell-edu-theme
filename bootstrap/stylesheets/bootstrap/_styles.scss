@@ -646,6 +646,7 @@ footer {
 
 
 .search-banner {
+
     display: none;
     width: 100%;
     background-color: #f0f1f2;
@@ -653,6 +654,7 @@ footer {
     margin: 0;
     z-index: 99999;
     position: absolute;
+    top: 0;
 }
 
 .search-banner p {
@@ -682,6 +684,7 @@ footer {
     position: absolute;
     top: 12px;
     right: 10px;
+    font-size: 18px;
 }
 
 
