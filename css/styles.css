@@ -10,7 +10,7 @@ Error: Invalid CSS after "...   inline-block": expected "{", was ";margin-top: "
 820:             width: 360px;
 821:             inline-block;margin-top: 
 822:             20px; border: 
-823:             16px solid #eceade;" 
+823:             16px solid #eceade;
 824:         }
 825:     }
 826: 
@@ -85,4 +85,4 @@ bootstrap.scss:55
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...   inline-block\": expected \"{\", was \";margin-top: \"\A         on line 821 of _styles.scss\A         from line 55 of bootstrap.scss\A \A 816:     .well-science {\A 817: \A 818:         .science-img {\A 819: \A 820:             width: 360px;\A 821:             inline-block;margin-top: \A 822:             20px; border: \A 823:             16px solid #eceade;\" \A 824:         }\A 825:     }\A 826: "; }
+  content: "Error: Invalid CSS after \"...   inline-block\": expected \"{\", was \";margin-top: \"\A         on line 821 of _styles.scss\A         from line 55 of bootstrap.scss\A \A 816:     .well-science {\A 817: \A 818:         .science-img {\A 819: \A 820:             width: 360px;\A 821:             inline-block;margin-top: \A 822:             20px; border: \A 823:             16px solid #eceade;\A 824:         }\A 825:     }\A 826: "; }
