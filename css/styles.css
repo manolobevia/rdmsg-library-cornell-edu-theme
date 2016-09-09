@@ -5541,6 +5541,8 @@ footer {
   position: absolute;
   top: 0;
   height: 200px; }
+  .search-banner h2 {
+    color: #fff; }
 
 .search-banner p {
   font-family: "Lucida Grande",helvetica,arial,verdana,sans-serif;
@@ -5561,11 +5563,6 @@ footer {
   right: 10px;
   font-size: 30px;
   color: #fff; }
-
-#search-form h2 {
-  color: #fff; }
-#search-form input {
-  width: 300px; }
 
 /*---------------------------------------
     ### Meqia Query 320px

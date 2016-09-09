@@ -657,6 +657,11 @@ footer {
     top: 0;
     height: 200px;
 
+    h2 {
+
+        color: #fff;
+    }
+
 }
 
 .search-banner p {
@@ -692,14 +697,9 @@ footer {
 
 #search-form {
 
-    h2 {
-
-        color: #fff;
-    }
-
     input {
 
-        width: 300px;
+        //width: 300px;
     }
 }
 /*---------------------------------------
