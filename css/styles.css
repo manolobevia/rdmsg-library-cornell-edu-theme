@@ -5683,7 +5683,7 @@ footer {
   .home-features,
   footer,
   .interior-content {
-    width: 90%;
+    width: 1400;
     display: block;
     margin: 0 auto;
     padding-bottom: 30px; }
@@ -5692,7 +5692,7 @@ footer {
     width: 600px; }
 
   .not-front .hero-content {
-    width: 1440px;
+    width: 1400px;
     margin: 0 auto;
     padding-top: 0; }
 
