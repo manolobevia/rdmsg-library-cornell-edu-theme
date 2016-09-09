@@ -5565,8 +5565,8 @@ footer {
   font-size: 30px;
   color: #fff; }
 
-.page-search-node .input-group {
-  width: 300px !important; }
+.input-group .form-control {
+  width: 300px; }
 
 /*---------------------------------------
     ### Meqia Query 320px
