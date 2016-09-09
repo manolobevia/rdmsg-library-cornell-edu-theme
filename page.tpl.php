@@ -82,14 +82,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 <!-- <?php print $theme_path; ?> -->
 
 
-<aside class="search-banner">
 
-        <p><a href="#">ADD SEARCH FUNCTIONALITY</a></p>
-
-        <a href="#" class="close-search-banner"><i class="fa fa-times-circle-o" aria-hidden="true"></i>
-</a>
-
-</aside>
 
 
 <section class="row hero interior-pages">
@@ -115,6 +108,14 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
             <?php print render($page['main_nav']); ?>
             
         </header>
+
+        <aside class="search-banner">
+
+            <p><a href="#">ADD SEARCH FUNCTIONALITY</a></p>
+
+            <a href="#" class="close-search-banner"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+
+        </aside>
         
 
     <section class="row interior-content">

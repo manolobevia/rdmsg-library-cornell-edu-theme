@@ -89,7 +89,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
 
 
-<section class="row hero">
+    <section class="row hero">
 
             <div class="hero-content">
 
