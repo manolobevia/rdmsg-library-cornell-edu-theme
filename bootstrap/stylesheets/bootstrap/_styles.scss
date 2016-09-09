@@ -657,6 +657,8 @@ footer {
     top: 0;
     height: 200px;
 
+    margin-left: 20px;
+
     h2 {
 
         color: #fff;
@@ -704,7 +706,7 @@ footer {
 }
 
 .page-search-node .input-group {
-    width: 300px;
+    width: 300px !important;
 }
 /*---------------------------------------
     ### Meqia Query 320px

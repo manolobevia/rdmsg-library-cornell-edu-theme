@@ -5540,7 +5540,8 @@ footer {
   z-index: 99999;
   position: absolute;
   top: 0;
-  height: 200px; }
+  height: 200px;
+  margin-left: 20px; }
   .search-banner h2 {
     color: #fff; }
 
@@ -5565,7 +5566,7 @@ footer {
   color: #fff; }
 
 .page-search-node .input-group {
-  width: 300px; }
+  width: 300px !important; }
 
 /*---------------------------------------
     ### Meqia Query 320px
