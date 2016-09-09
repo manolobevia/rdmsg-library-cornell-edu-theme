@@ -111,7 +111,24 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <aside class="search-banner">
 
-            <p><a href="#">ADD SEARCH FUNCTIONALITY</a></p>
+            <form accept-charset="UTF-8" id="search-form" method="post" action="/search/node" class="search-form clearfix">
+                <div>
+                    <div id="edit-basic" class="form-wrapper form-group">
+                        
+                        <div class="input-group">
+
+                            <input type="text" maxlength="255" size="40" value="" name="keys" id="edit-keys" class="form-control form-text" placeholder="Search"><span class="input-group-btn"><button class="btn btn-default" type="submit"><i aria-hidden="true" class="icon glyphicon glyphicon-search"></i></button></span>
+
+                        </div>
+
+                        <button type="submit" value="Search" name="op" id="edit-submit" class="element-invisible btn btn-primary form-submit">Search</button>
+
+                    </div>
+
+                        <input type="hidden" value="form-91yuMdF26jPxhk15D3oIkVZItXRtVfQAr0XJu6xi3Ns" name="form_build_id">
+                        <input type="hidden" value="search_form" name="form_id">
+                </div>
+            </form>
 
             <a href="#" class="close-search-banner"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
 

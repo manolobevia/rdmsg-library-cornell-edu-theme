@@ -5534,7 +5534,7 @@ footer {
 .search-banner {
   display: none;
   width: 100%;
-  background-color: #fff;
+  background-color: #4d4e53;
   padding: 12px 10px;
   margin: 0;
   z-index: 99999;
@@ -5559,7 +5559,8 @@ footer {
   position: absolute;
   top: 12px;
   right: 10px;
-  font-size: 18px; }
+  font-size: 30px;
+  color: #fff; }
 
 /*---------------------------------------
     ### Meqia Query 320px
