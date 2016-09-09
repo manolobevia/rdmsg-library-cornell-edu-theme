@@ -82,7 +82,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 <!-- <?php print $theme_path; ?> -->
 
 
-<aside class="survey-results">
+<aside class="search-banner">
 
         <p><a href="#">ADD SEARCH FUNCTIONALITY</a></p>
 
