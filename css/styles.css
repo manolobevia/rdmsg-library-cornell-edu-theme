@@ -5600,7 +5600,7 @@ footer {
     padding-left: 35px; }
 
   .interior-content {
-    width: 100%; }
+    width: 90%; }
 
   .page-search-node .input-group {
     width: 400px; }
@@ -5643,7 +5643,7 @@ footer {
   .home-features,
   footer,
   .interior-content {
-    width: 1440px;
+    width: 90%;
     display: block;
     margin: 0 auto;
     padding-bottom: 30px; }
