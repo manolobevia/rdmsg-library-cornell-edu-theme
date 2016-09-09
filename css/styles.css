@@ -5562,6 +5562,8 @@ footer {
   font-size: 30px;
   color: #fff; }
 
+#search-form h2 {
+  color: #fff; }
 #search-form input {
   width: 300px; }
 

@@ -111,7 +111,7 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <aside class="search-banner">
 
-            <h2 class="title">Search</h2>
+            <h2>Search</h2>
 
             <form accept-charset="UTF-8" id="search-form" method="post" action="/search/node" class="search-form clearfix">
                 <div>
@@ -119,11 +119,17 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
                         
                         <div class="input-group">
 
-                            <input type="text" maxlength="255" size="40" value="" name="keys" id="edit-keys" class="form-control form-text" placeholder="Search"><span class="input-group-btn"><button class="btn btn-default" type="submit"><i aria-hidden="true" class="icon glyphicon glyphicon-search"></i></button></span>
+                            <input type="text" maxlength="255" size="40" value="" name="keys" id="edit-keys" class="form-control form-text" placeholder="Search">
+
+                            <span class="input-group-btn">
+
+                            <button class="btn btn-default" type="submit"><i aria-hidden="true" class="icon glyphicon glyphicon-search"></i></button>
+
+                            </span>
 
                         </div>
 
-                        <button type="submit" value="Search" name="op" id="edit-submit" class="element-invisible btn btn-primary form-submit">Search</button>
+                        <!--<button type="submit" value="Search" name="op" id="edit-submit" class="element-invisible btn btn-primary form-submit">Search</button>-->
 
                     </div>
 
