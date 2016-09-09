@@ -68,7 +68,7 @@ $( document ).ready(function() {
           $('.search-banner').fadeIn( 400 );
       });
 
-       $( '.close-ssearch-banner' ).click(function(e) {
+       $( '.close-search-banner' ).click(function(e) {
 
           e.preventDefault();
           $('.search-banner').fadeOut( 400 );
