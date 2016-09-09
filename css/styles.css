@@ -5568,6 +5568,9 @@ footer {
 .input-group .form-control {
   width: 300px; }
 
+.input-group-btn {
+  float: left; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
