@@ -5536,7 +5536,8 @@ footer {
   width: 100%;
   background-color: #f0f1f2;
   padding: 12px 10px;
-  margin: 0; }
+  margin: 0;
+  z-index: 99999; }
 
 .search-banner p {
   font-family: "Lucida Grande",helvetica,arial,verdana,sans-serif;
