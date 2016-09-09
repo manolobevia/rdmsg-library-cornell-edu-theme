@@ -5593,7 +5593,7 @@ footer {
     padding-left: 35px; }
 
   .interior-content {
-    width: 90%; }
+    width: 100%; }
 
   .page-search-node .input-group {
     width: 400px; }
@@ -5602,7 +5602,10 @@ footer {
     margin-top: 20px;
     width: 300px;
     float: right;
-    margin-left: 20px; } }
+    margin-left: 20px; }
+
+  .well-science img {
+    width: 360px; } }
 /*---------------------------------------
     ### Meqia Query 992px
 ---------------------------------------*/
@@ -5612,13 +5615,19 @@ footer {
     padding-left: 50px; }
 
   #how-do-i {
+    width: 420px; }
+
+  .well-science img {
     width: 420px; } }
 /*---------------------------------------
     ### Meqia Query 1200px
 ---------------------------------------*/
 @media (min-width: 1200px) {
   #how-do-i {
-    width: 520px; } }
+    width: 520px; }
+
+  .well-science img {
+    width: 100%; } }
 /*---------------------------------------
     ### Meqia Query 140px
 ---------------------------------------*/

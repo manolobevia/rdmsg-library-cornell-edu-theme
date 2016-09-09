@@ -604,16 +604,16 @@ footer {
 }
 
 
-    .well-about,
-    .well-data,
-    .well-science {
+.well-about,
+.well-data,
+.well-science {
 
-        margin-top: 20px;
-        width: 100%;
-        float: left;
-        margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+    margin-left: 0;
 
-    }
+}
 
 .consultant-item {
 
@@ -634,6 +634,7 @@ footer {
 
     }
 }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
@@ -713,10 +714,6 @@ footer {
 
 }
 
-
-
-
-
 /*---------------------------------------
     ### Meqia Query 768pc
 ---------------------------------------*/
@@ -794,7 +791,7 @@ footer {
 
     .interior-content {
 
-        width: 90%;
+        width: 100%;
 
     } 
 
@@ -815,6 +812,15 @@ footer {
         margin-left: 20px;
 
     }    
+
+    .well-science {
+
+        img {
+
+            width: 360px;
+        }
+    }
+
 }
 
 /*---------------------------------------
@@ -837,6 +843,14 @@ footer {
 
         width: 420px;
     }
+
+        .well-science {
+
+        img {
+
+            width: 420px;
+        }
+    }
 }
 
 /*---------------------------------------
@@ -852,6 +866,14 @@ footer {
     #how-do-i {
 
         width: 520px;
+    }
+
+        .well-science {
+
+        img {
+
+            width: 100%;
+        }
     }
 }
 
@@ -933,11 +955,5 @@ footer {
 
 
 }
-
-
-
-
-
-
 
     
