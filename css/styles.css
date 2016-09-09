@@ -5562,6 +5562,9 @@ footer {
   font-size: 30px;
   color: #fff; }
 
+#search-form input {
+  width: 300px; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/

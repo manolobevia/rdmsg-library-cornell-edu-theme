@@ -111,6 +111,8 @@ $theme_path = drupal_get_path('theme',$GLOBALS['theme']) . '/';
 
         <aside class="search-banner">
 
+            <h2 class="title">Search</h2>
+
             <form accept-charset="UTF-8" id="search-form" method="post" action="/search/node" class="search-form clearfix">
                 <div>
                     <div id="edit-basic" class="form-wrapper form-group">
