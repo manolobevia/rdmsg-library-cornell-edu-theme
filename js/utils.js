@@ -62,7 +62,17 @@ $( document ).ready(function() {
 
 
 
+       $( '.search' ).click(function(e) {
 
+          e.preventDefault();
+          $('.search-banner').fadeIn( 400 );
+      });
+
+       $( '.close-ssearch-banner' ).click(function(e) {
+
+          e.preventDefault();
+          $('.search-banner').fadeOut( 400 );
+      });
 
 });
 

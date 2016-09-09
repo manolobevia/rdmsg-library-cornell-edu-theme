@@ -5531,6 +5531,31 @@ footer {
   height: 100%;
   border: 6px solid #eceade; }
 
+.search-banner {
+  display: none;
+  width: 100%;
+  background-color: #f0f1f2;
+  padding: 12px 10px;
+  margin: 0; }
+
+.search-banner p {
+  font-family: "Lucida Grande",helvetica,arial,verdana,sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0; }
+
+.search-banner p a {
+  text-decoration: none;
+  color: #b31b1b; }
+
+.search-banner p a:hover {
+  opacity: .7; }
+
+.search-banner .close-search-banner {
+  position: absolute;
+  top: 12px;
+  right: 10px; }
+
 /*---------------------------------------
     ### Meqia Query 320px
 ---------------------------------------*/
