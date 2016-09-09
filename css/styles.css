@@ -5618,7 +5618,8 @@ footer {
     width: 420px; }
 
   .well-science img {
-    width: 420px; } }
+    width: 420px;
+    border: 9px solid pink; } }
 /*---------------------------------------
     ### Meqia Query 1200px
 ---------------------------------------*/
