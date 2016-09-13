@@ -11,7 +11,6 @@
 
 //sass --watch styles.scss:styles.css
 
-
 // VARIABLES
 
 $links: #b37f2c;
@@ -464,6 +463,12 @@ body {
 
             }
 
+        }
+
+        .button-text {
+        
+            font-size: 18px;
+            padding-left: 20px;
         }
     }
 }

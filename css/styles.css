@@ -5435,6 +5435,9 @@ header {
       .home-features article .button-graphic:hover {
         text-decoration: none;
         opacity: .5; }
+    .home-features article .button-text {
+      font-size: 18px;
+      padding-left: 20px; }
 
 /*---------------------------------------
     ### Interior Pages
