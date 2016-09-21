@@ -5469,6 +5469,9 @@ header {
   .interior-content p, .interior-content ul, .interior-content ol {
     font-size: 20px; }
 
+.row.interior-content article.node-page header {
+  display: none; }
+
 /*---------------------------------------
     ### Footer
 ---------------------------------------*/
