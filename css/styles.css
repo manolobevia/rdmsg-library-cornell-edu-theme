@@ -5258,7 +5258,7 @@ header {
 .navbar.navbar-default .navbar-header button {
   position: absolute;
   top: -49px;
-  right: 8px;
+  right: 16px;
   border: none; }
   .navbar.navbar-default .navbar-header button:hover {
     opacity: .5; }
